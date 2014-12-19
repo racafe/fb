@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.technit.fbconnect"
+        version   = "1.0.0">
+    <name>FB cnt</name>
+
+    <description>
+        Facebook Connect
+    </description>
+
+    <author href="http://technit.com.mx" email="ventas@technit.com.mx">
+        Technit Solutions SA de CV
+    </author>
+	
+	<access origin="*" />
+	<gap:plugin name="com.phonegap.plugins.facebookconnect" version="1.0.0">
+        <param name="APP_ID" value="518362571642337" />
+        <param name="APP_NAME" value="Tiburones Rojos" />
+    </gap:plugin>
+
+    <!-- content src="http://www.w3.org/2010/05/video/mediaevents.html" / -->
+</widget>
