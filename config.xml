@@ -13,6 +13,7 @@
         Technit Solutions SA de CV
     </author>
 	
+    <preference name="phonegap-version" value="3.6.3" />
 	<access origin="*" />
 	<gap:plugin name="com.phonegap.plugins.facebookconnect" version="1.0.0">
         <param name="APP_ID" value="518362571642337" />
