@@ -43,7 +43,6 @@
         </div>
         <div id="fb-root"></div>
         <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/facebookConnectPlugin.js"></script>
         <script type="text/javascript">
             var login = function () {
                 if (!window.cordova) {
@@ -85,5 +84,8 @@
                     function (response) { alert(JSON.stringify(response)) });
             }
         </script>
+        <script type="text/javascript">
+            app.initialize();
+		</script>
     </body>
 </html>
